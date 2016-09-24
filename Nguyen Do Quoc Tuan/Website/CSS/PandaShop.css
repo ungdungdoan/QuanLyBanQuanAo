@@ -1,0 +1,127 @@
+﻿.head
+{
+border:1px solid purple;
+border-collapse:collapse;
+text-align:center;
+width:100%;
+}
+
+.head a, .sign-in a, .product a
+{
+color:purple;
+font-size:17pt;
+font-weight:bold;
+text-decoration:none;
+}
+
+aside
+{
+margin:7px;
+}
+
+*
+{
+margin:0;
+padding:0;
+}
+
+body
+{
+font-family:Arial;
+background:white;
+}
+
+.main-menu ul
+{
+background:purple;
+text-align:center;
+list-style-type:none;
+}
+
+.main-menu li
+{
+color:white;
+width:250px;
+height:50px;
+line-height:50px;
+font-weight:bold;
+display:inline-block;
+position:relative;
+}
+
+.main-menu a
+{
+color:white;
+text-decoration:none;
+display:block;
+}
+
+.main-menu a:hover
+{
+background:violet;
+color:purple;
+}
+
+.main-menu .sub-menu1
+{
+display:none;
+}
+
+.main-menu li:hover .sub-menu1
+{
+display:block;
+position:absolute;
+}
+
+section a
+{
+color:purple;
+font-size:12pt;
+text-decoration:none;
+clear:both;
+}
+
+section img
+{
+margin:7px;
+width:252px;
+}
+
+.cost
+{
+border:3px double purple;
+color:purple;
+font-size:15pt;
+font-weight:bold;
+width:500px;
+padding:25px;
+float:right;
+}
+
+.product
+{
+margin:7px;
+width:252px;
+display:inline-block;
+text-align:center;
+}
+
+.introduce, .contact, .address, .sign-in, .sign-up, .shirt, .pant
+{
+color:purple;
+}
+
+.foot
+{
+background:grey;
+color:white;
+padding:20px;
+}
+
+.foot a
+{
+color:white;
+font-weight:bold;
+text-decoration:none;
+margin:10px;
+}
