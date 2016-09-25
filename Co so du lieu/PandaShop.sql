@@ -1,6 +1,6 @@
 ﻿create table NhomSanPham
 (
-aNhom int not null,
+MaNhom int not null,
 TenNhom nvarchar(15)
 )
 
